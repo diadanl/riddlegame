@@ -16,7 +16,7 @@
     <div class="game-container">
         <h1>🧙‍♂️ Riddle Challenge</h1>
         <button id="startGameButton">Start Game</button>
-        <p id="riddle" class="riddle-text">Click to start the riddle challenge...</p>
+        <p id="riddle" class="riddle-text">Loading riddle...</p>
         <input type="text" id="answerInput" placeholder="Enter your answer..." autocomplete="off">
         <button onclick="checkAnswer()">Submit</button>
         <button onclick="showHint()">Hint</button>
