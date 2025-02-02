@@ -1,0 +1,119 @@
+/* Basic Reset */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #1a1a1a;
+    color: #f5e6ca;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Game Container */
+.game-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 20px;
+    background: #2e2b24;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.7);
+    border: 2px solid #c9a46c;
+}
+
+/* Title */
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #d4af37;
+}
+
+/* Riddle Text */
+.riddle-text {
+    font-size: 18px;
+    font-style: italic;
+    margin-bottom: 15px;
+}
+
+/* Input Field */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #c9a46c;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #3b362c;
+    color: #f5e6ca;
+}
+
+/* Buttons */
+button {
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #f5e6ca;
+    background-color: #6b4d27;
+    border: 2px solid #c9a46c;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #8b6f3d;
+}
+
+/* Hint & Response Text */
+.hint-text {
+    color: #c9a46c;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.response-text {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Score Text */
+.score-text {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #d4af37;
+}
+
+/* Strike Counter */
+.strike-text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+/* Modal Popup Styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7); /* Black with opacity */
+    overflow: auto;
+    padding-top: 100px;
+}
+
+.modal-content {
+    background-color: #2e2b24;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #c9a46c;
+    width: 40%;
+    color: #f5e6ca;
+    text-align: center;
+}
+
+.modal button {
+    margin-top: 15px;
+}
