@@ -95,7 +95,7 @@ function checkAnswer() {
 
     // If player reaches 5 penalty attempts, game is over
     if (penaltyCount >= 5) {
-        showModal("You Lose! ⚠ Too many incorrect answers.<br>The correct answer was: <strong>${currentRiddle.answer}</strong>");
+        showModal("You Lose! ⚠ Too many incorrect answers.");
         resetGame();
     } else {
         document.getElementById('response').textContent = "Incorrect! Try again.";
