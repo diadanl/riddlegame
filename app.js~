@@ -95,7 +95,7 @@ function checkAnswer() {
 
     // If player reaches 5 penalty attempts, game is over
     if (penaltyCount >= 5) {
-        showModal("You Lose! ⚠ Too many incorrect answers.");
+        showModal(`You Lose! ⚠ Too many incorrect answers.<br>The correct answer was: <b>${currentRiddle.answer}</b>`);
         resetGame();
     } else {
         document.getElementById('response').textContent = "Incorrect! Try again.";
@@ -129,6 +129,7 @@ function resetGame() {
 // Function to show the win/lose modal
 function showModal(message) {
     modalMessage.textContent = message;
+    modalMessage.innerHTML = message; // Ensure innerHTML is used
     modal.style.display = 'block'; // Show the modal
 }
 
