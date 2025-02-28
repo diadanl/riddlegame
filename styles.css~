@@ -2,6 +2,7 @@
 body {
     font-family: 'Georgia', serif;
     background-color: #1a1a1a;
+    background-image: url('cave.jpg');
     color: #f5e6ca;
     text-align: center;
     margin: 0;

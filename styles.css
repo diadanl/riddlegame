@@ -8,7 +8,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
+footer {
+    margin-top: 60px !important; /* Adjust as needed */
+  }
 /* Game Container */
 .game-container {
     max-width: 500px;

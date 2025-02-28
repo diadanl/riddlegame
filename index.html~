@@ -16,7 +16,7 @@
     <div class="game-container">
         <h1>🧙‍♂️ Riddle Challenge</h1>
         <button id="startGameButton">Start Game</button>
-        <p id="riddle" class="riddle-text">Loading riddle...</p>
+        <p id="riddle" class="riddle-text">Click to start the riddle challenge...</p>
         <input type="text" id="answerInput" placeholder="Enter your answer..." autocomplete="off">
         <button onclick="checkAnswer()">Submit</button>
         <button onclick="showHint()">Hint</button>
@@ -36,5 +36,15 @@
     </div>
 
     <script src="app.js"></script>
+    <footer>
+  <p>
+    <a href="https://github.com/diadanl" target="_blank" title="GitHub">
+      <i class="bi bi-github fs-4"></i>
+    </a>
+    <a href="https://www.tortoisebyte.net" target="_blank" title="Website">
+      <i class="bi bi-person-circle fs-4"></i>
+    </a>
+  </p>
+</footer>
 </body>
 </html>
