@@ -140,3 +140,14 @@ footer a {
 footer a i {
     font-size: 2.5rem; /* Adjust the size as needed */
 }
+
+
+/* GitHub Icon Fixes */
+footer h1 a {
+    color: white; /* Changes the link and icon color to white */
+    text-decoration: none; /* Removes the underline from the link */
+}
+
+footer h1 a i {
+    font-size: 2.5rem; /* Makes the icon larger */
+}
