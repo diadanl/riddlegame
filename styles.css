@@ -8,9 +8,11 @@ body {
     margin: 0;
     padding: 0;
 }
+
 footer {
     margin-top: 60px !important; /* Adjust as needed */
-  }
+}
+
 /* Game Container */
 .game-container {
     max-width: 500px;
@@ -119,4 +121,22 @@ button:hover {
 
 .modal button {
     margin-top: 15px;
+}
+
+/* --- */
+
+## GitHub Icon Fixes 💻✨
+
+To make the GitHub icon larger and white, add these new CSS rules to the end of your `styles.css` file.
+
+```css
+/* Style for the GitHub icon link */
+footer a {
+    color: white; /* Changes the link and icon color to white */
+    text-decoration: none; /* Removes the underline from the link */
+}
+
+/* Make the icon larger */
+footer a i {
+    font-size: 2.5rem; /* Adjust the size as needed */
 }
